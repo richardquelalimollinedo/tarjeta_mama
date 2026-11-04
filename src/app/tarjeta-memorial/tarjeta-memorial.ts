@@ -58,7 +58,7 @@ export class TarjetaMemorial implements OnInit, AfterViewInit, OnDestroy {
 
   // Jueves 12 de noviembre de 2026 (el mes va de 0 a 11, por eso noviembre = 10)
   private readonly fechaEvento = new Date(2026, 10, 12);
-  readonly fechaTexto = 'Jueves 12 de noviembre de 2026';
+  readonly fechaTexto = 'Jueves 12 de noviembre de 2026 Hrs. 6 PM';
 
   // ⚠️ Escribe aquí la hora (ejemplo: '19:00 hrs'). Si lo dejas vacío, no se muestra.
   readonly hora = '';
